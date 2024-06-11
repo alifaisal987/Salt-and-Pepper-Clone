@@ -40,27 +40,25 @@ a{
     font-size: 1.5rem;
 }
 .img-brand{
-    width: 268px;
-    margin: 1px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
-.product-btn{
-    border: 2px solid #ffffff ;
-    background-color: black;
-    color: white;
-    border-radius: 20px;
+
+.brand-container {
+    justify-content: center;
+    gap: 20px;
+}
+.brand-item {
     display: flex;
-    margin-left: 370px;
-    padding: 15px;
-    
+    flex-direction: column;
+    align-items: center;
 }
-.producttwo-btn{
-    border: 2px solid #ffffff ;
+.product-btn {
     background-color: black;
-    color: white;
+    color: #ffff;
+    border: 1px solid white;
+    padding: 12px 25px;
+    cursor: pointer;
     border-radius: 20px;
-    display: flex;
-    margin-left: 650px;
-    padding: 15px;
-    
-    
-}
+  }
