@@ -39,3 +39,28 @@ a{
     text-align: center;
     font-size: 1.5rem;
 }
+.img-brand{
+    width: 268px;
+    margin: 1px;
+}
+.product-btn{
+    border: 2px solid #ffffff ;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 370px;
+    padding: 15px;
+    
+}
+.producttwo-btn{
+    border: 2px solid #ffffff ;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 650px;
+    padding: 15px;
+    
+    
+}

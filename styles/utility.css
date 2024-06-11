@@ -37,6 +37,10 @@ html{
 }
 .flex-column{
     flex-direction: column;
+    
+}
+.flex-row{
+    flex-direction: row;
 }
 .gap-5{
     gap: 25px;
