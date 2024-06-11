@@ -149,6 +149,9 @@ html{
 .text-start{
     text-align: start;
 }
+.text-end{
+    text-align: end;
+}
 
 .border-sm{
     border: 1px solid black;

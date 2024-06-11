@@ -101,3 +101,24 @@ a{
     width: 449px;
     height: auto;
 }
+.fsbimg-container{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    gap: 20px;
+}
+.text-right{
+    text-align: right;
+}
+.fsb-text{
+    font-size: 2rem;
+    color: #ff0000;
+    align-items: center;
+    
+}
+.fsb2-text{
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 10px; 
+    
+   
