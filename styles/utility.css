@@ -5,7 +5,7 @@
 }
 html{
     font-size: 62.5%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Croissant One", serif;
     font-weight: lighter;
 }
 
@@ -32,8 +32,18 @@ html{
 .justify-between{
     justify-content: space-between;
 }
+.justify-start{
+    justify-content: start;
+
+}
+.justify-end{
+    justify-content: end;
+}
 .item-center{
     align-items: center;
+}
+.item-end{
+    align-items: end;
 }
 .flex-column{
     flex-direction: column;
@@ -135,6 +145,9 @@ html{
 
 .text-center{
     text-align: center;
+}
+.text-start{
+    text-align: start;
 }
 
 .border-sm{
