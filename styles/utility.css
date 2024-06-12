@@ -44,6 +44,10 @@ html{
 }
 .item-end{
     align-items: end;
+
+}
+.item-start{
+    align-items: start;
 }
 .flex-column{
     flex-direction: column;

@@ -129,15 +129,28 @@ a{
     padding: 8px;
     font-size: 2rem;
     text-decoration: none;
+    text-align: center;
  }
  .emporium-txttwo{
     font-size: 1rem;
     text-decoration: none;
+    text-align: center;
  }
  .exfranchise-container{
-    display: flex;
+   display: flex;
     justify-content: center;
+    gap: 20px;
  }
 
+
+ 
+
   /* 7th section classes    */
-   
+  .exfranchise-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    
+}
