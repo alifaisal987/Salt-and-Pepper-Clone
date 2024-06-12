@@ -29,13 +29,13 @@ a{
 }
 .slt-txt{
     color: white;
-    font-size: 3rem;
+    font-size: 52px;
     padding: 15px;
     text-align: center;
 }
 .p-text{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 16px;
 }
 .img-brand{
     max-width: 100%;
@@ -120,5 +120,24 @@ a{
     font-size: 2rem;
     color: white;
     padding-bottom: 10px; 
-    
+}
+.ex-txt{
+    font-size: 52px;
+}
+ /* 7th section classes    */
+ .emporium-txtone{
+    padding: 8px;
+    font-size: 2rem;
+    text-decoration: none;
+ }
+ .emporium-txttwo{
+    font-size: 1rem;
+    text-decoration: none;
+ }
+ .exfranchise-container{
+    display: flex;
+    justify-content: center;
+ }
+
+  /* 7th section classes    */
    
