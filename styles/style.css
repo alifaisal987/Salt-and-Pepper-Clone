@@ -241,4 +241,5 @@ a{
     flex-direction: row;
     gap: 20px;
     margin: 2px;
+    align-items: center;
  }
