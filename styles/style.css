@@ -236,4 +236,9 @@ a{
     align-items: center;
     gap: 10%;
  }
- 
+ .sclimg{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 5px;
+ }
