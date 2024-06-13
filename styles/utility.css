@@ -140,6 +140,9 @@ html{
 .px1{
     padding: 0px 5px;
 }
+.px2{
+    padding: 0px 5px;
+}
 
 .py-{
     padding: 5px 0px;
@@ -170,4 +173,7 @@ html{
 }
 .bg-grey{
  background-color: #0f0f0f;
+}
+.txt-szie{
+    font-size: 42px;
 }
