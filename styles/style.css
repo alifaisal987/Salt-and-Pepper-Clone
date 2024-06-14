@@ -243,3 +243,9 @@ a{
     margin: 2px;
     align-items: center;
  }
+ .arrow-icon{
+   border: solid 5px white;
+   border-radius: 20px;
+   background-color: white;
+   color: red;
+ }
