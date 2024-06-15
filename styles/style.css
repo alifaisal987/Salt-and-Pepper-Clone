@@ -243,6 +243,7 @@ a{
     margin: 2px;
     align-items: center;
  }
+ /* arrow icon styling */
  .arrow-icon{
    border: solid 5px white;
    border-radius: 20px;
@@ -250,4 +251,23 @@ a{
    color: red;
    
  }
- 
+ /* arrow icon styling */
+ /* footer */
+
+
+ .footer{
+    padding: 20px;
+    margin-left: 100px;
+    gap: 50px;
+}
+li{
+    list-style: none;
+    margin-top: 35px;
+}
+.textgray{
+    color: grey;
+}
+.iconssocial{
+    gap: 3px;
+  
+}
