@@ -1,0 +1,32 @@
+.pubcontain{
+    display: flex;
+    justify-content: center;
+}
+.pub1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    flex-direction: row;
+    
+    
+}
+.pub1img{
+    border: 1px solid white;
+    padding: 30px;
+}
+.pub2img{
+    border: 1px solid white;
+    padding: 30px;
+}
+.txtpub1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+.font-two{
+    font-size: 15px;
+}
