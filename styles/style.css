@@ -41,7 +41,7 @@ a{
 .img-brand{
     max-width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 .brand-container {
     display: flex;
@@ -274,3 +274,36 @@ li{
 .textdec{
     font-size: 15px;
 }
+/* About us page started */
+.intro-sec{
+    text-align: center;
+     display: flex;
+    flex-direction: row;
+     justify-content: center; 
+}
+.intro-txt{
+    font-size: 1.5rem;
+    
+    text-decoration: none;
+}
+
+.introsec2{
+    text-align: center;
+     display: flex;
+    flex-direction: row;
+     justify-content: center; 
+}
+.isb-txt2{
+    font-size: 2rem;
+   
+}
+.asb-txt{
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 10px;
+}
+.asp-txt{
+    font-size: 3rem;
+}
+
+/* About us page ended */
