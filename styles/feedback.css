@@ -1,0 +1,23 @@
+.feedback1{
+    position: relative;
+    width: 100%;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Adjust to position the text vertically */
+    left: 50%; /* Adjust to position the text horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; /* Text color */
+    background-color: transparent; /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.feed2con{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}

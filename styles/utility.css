@@ -180,3 +180,6 @@ html{
 .txt-szie2{
     font-size: 32px;
 }
+.col1{
+    flex-direction: column;
+}
