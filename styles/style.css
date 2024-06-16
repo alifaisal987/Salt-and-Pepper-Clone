@@ -105,9 +105,9 @@ a{
 }
 .fsbimg-container{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     width: 100%;
-    gap: 20px;
+    gap: 0px;
     flex-direction: row;
    
 }
@@ -307,3 +307,18 @@ li{
 }
 
 /* About us page ended */
+.img-fs{
+   margin-left: 90px;
+}
+.fsb-text{
+    margin-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vlgtwo-abt{
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 10px; 
+    
+}
