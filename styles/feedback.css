@@ -2,6 +2,10 @@
     position: relative;
     width: 100%;
 }
+.imgmain{
+    max-width: 100%;
+    flex-wrap: wrap;
+}
 .text-overlay {
     position: absolute;
     top: 50%; /* Adjust to position the text vertically */
@@ -15,9 +19,23 @@
     text-align: center;
 
 }
-.feed2con{
+.feed-content{
     display: flex;
-    flex-direction: column;
     justify-content: start;
+    flex-direction: column;
 
+    
 }
+.feedback1-text{
+   font-size: 17px;
+margin-left: 50px;
+}
+.star{
+    margin: 0px 5px 0px 0px;
+    border: 1px solid white;
+     border-radius:10px ;
+     background-color:white;
+     color: black;
+     font-size: 26px;
+}
+

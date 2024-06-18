@@ -183,3 +183,6 @@ html{
 .col1{
     flex-direction: column;
 }
+.font24{
+    font-size: 24px;
+}
