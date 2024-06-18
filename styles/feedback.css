@@ -30,7 +30,7 @@
    font-size: 17px;
 margin-left: 50px;
 }
-.star{
+/* .star{
     margin: 0px 5px 0px 0px;
     border: 1px solid white;
      border-radius:10px ;
@@ -38,4 +38,153 @@ margin-left: 50px;
      color: black;
      font-size: 26px;
 }
+.starbox-container{
+    /* font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+/* .starbox2{
+   display: flexbox;
+   flex-wrap: wrap-reverse;
+   justify-content: ;
+    font-size: 26px;
+    margin-bottom: 30px;
+    margin-top: 30px; 
+} */ 
+.feed-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* Center the feedback text horizontally */
+}
+
+.starbox-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%; /* Full width to distribute space */
+    padding: 0 50px; /* Add padding to match the margin of the feedback text */
+ 
+}
+
+.starbox, .starbox2 {
+    flex: 1; /* Ensure boxes take equal space */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align content to start */
+  text-align: center;
+}
+
+.starbox2 {
+    align-items: flex-start /* Align the cleanliness box to the right */
+}
+
+.star {
+    margin: 0 5px 0 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 26px;
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+h4{
+    text-align: center;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+}
+.textrow1{
+    font-size: 26px;
+   display: flex;
+  
+   margin-left: 50px;
+   justify-content: start;
+   justify-items: center;
+  flex-direction: row;
+}
+.txt-box1{
+    gap: 50px;
+}
+.txt1{
+    margin: 0 5px 0 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+.txtbox2{
+    margin: 0 5px 0 0;
+    border: 1px solid white;
+
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+     
+}
+.txtbox2{
+    margin: 0 5px 0 0;
+    border: 1px solid white;
+
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+     
+}
+.txtbox4{
+    margin: 0 5px 0 0;
+    border: 1px solid white;
+
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   height: fit-content;
+     
+}
+.boxw2{
+display: flex;
+flex-direction: row;
+gap: 10px;
+
+}
+
+.fedsec2box{
+    display: flex;
+ 
+    width: 30%; /* Full width to distribute space */
+    padding: 0 5px; /* Add padding to match the margin of the feedback text */
+    float: right;
+    /* width: 45%; adjust the width as needed */
+    margin-top: 0; /* remove any margin top */
+    position: absolute; /* make it absolute */
+    top: 140%; /* move it to the top */
+    right: 8%; /* move it to the right */
+  }
+  .font17{
+    font-size: 17px;
+    display: block;
+  }
+  .map{
+    width: 100%;
+  }
+  
+  
+ 
+
+
 

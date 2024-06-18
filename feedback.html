@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications | Snp Main</title>
+    <title>Feedback | SNP Main</title>
     <link rel="icon" type="image/x-icon" href="./Assets/footer logo.jpg">
     <link rel="stylesheet" href="./styles/utility.css">
     <link rel="stylesheet" href="./styles/style.css">
@@ -15,50 +12,266 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
-
 </head>
 <body class="bg-dark text-white">
     <script src="https://kit.fontawesome.com/bfd180bbc3.js" crossorigin="anonymous"></script>   
     <header class="d-flex justify-around item-center flex-wrap">
         <!-- nav bar started -->
-        <div >
-            <img class="logo   " src="./Assets/logo.webp" alt="logo">
-
+        <div>
+            <img class="logo" src="./Assets/logo.webp" alt="logo">
         </div>
         <div>
-            <nav class="d-flex gap-5 item-center flex-wrap" >
+            <nav class="d-flex gap-5 item-center flex-wrap">
                 <a class="nav-text" href="./index.html">Home</a>
                 <a class="nav-text" href="./aboutus.html">About us</a>
-               <a class="nav-text" href="./publications.html">Publications</a>
-               <a class="nav-text" href="./feedback.html">Feedback</a>
-               <button class="franchise">Get a franchise</button>
-               <button class="order-btn">Order Online <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
+                <a class="nav-text" href="./publications.html">Publications</a>
+                <a class="nav-text" href="./feedback.html">Feedback</a>
+                <button class="franchise">Get a franchise</button>
+                <button class="order-btn">Order Online <span><i class="fa-solid fa-arrow-right arrow-icon"></i></span></button>
             </nav>  
         </div> 
-        </header> <br> <br> <br> 
-        <main>
-         <div class="feedback1">
-          <img class="imgmain" src="./Assets/bg-img feedback page.webp" alt="">
-          <div class="text-overlay"><h3>Salt'n Pepper</h3>
-            <h1>Feedback</h1> <br> 
-            <p>We’d Love To Hear From You!</p>
+    </header> 
+    <br> 
+    <main>
+        <div class="feedback1">
+            <img class="imgmain" src="./Assets/bg-img feedback page.webp" alt="">
+            <div class="text-overlay">
+                <h3>Salt'n Pepper</h3>
+                <h1>Feedback</h1> 
+                <br> 
+                <p>We’d Love To Hear From You!</p>
+            </div>
+        </div> 
+        <br> <br> <br>
+        <section class="feed-content">
+            <p class="feedback1-text">
+                Your feedback is important to us and we greatly appreciate you filling
+                <br>
+                out the comment form below. We look forward to hearing from you!
+            </p>
+            <br> <br> <br>
+            <div class="starbox-container">
+                <div class="starbox">
+                    <h4>Food</h4>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                </div>
+                <div class="starbox2">
+                    <h4>Service</h4>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                </div>
+            </div> 
+            <br> <br> <br> <br>
+            <div class="starbox-container">
+                <div class="starbox">
+                    <h4>Cleanliness</h4>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                </div>
+                <div class="starbox2">
+                    <h4>Value for Money</h4>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
+                </div>
+            </div>
+        </section> 
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="starbox">
+                <textarea class="txt1" name="name" id="">Full Name</textarea>
+            </div>
+            <div class="starbox2">
+                <textarea class="txt1" name="name" id="">Phone Number</textarea>
+            </div> 
+        </div> 
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="starbox">
+                <input class="txtbox2" type="date">
+            </div> 
+        </div>
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="starbox">
+                <select class="txtbox2" name="devices">
+                    <option value="br">Select Branch</option>
+                    <option value="sm">3-48 – Commercial Zone, Gulberg II, Lahore, Pakistan</option>
+                </select>
+            </div>
+        </div>  
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="starbox">
+                <label for="email">Email</label>
+                <input class="txtbox2" type="email">
+            </div> 
+        </div>
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="starbox">
+                <textarea class="txtbox2" name="sug" id="">suggestion</textarea>
+            </div> 
+        </div>
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="starbox">
+                <h5 class="font20">Kindly indicate your favourite items from our menu.</h5>
+            </div> 
+        </div>
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="boxw2">
+                <div>
+                    <label for="">1</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+                <div>
+                    <label for="">2</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+                <div>
+                    <label for="">3</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+            </div> 
+        </div>
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="boxw2">
+                <p class="font20">Are you satisfied with our current menu?
+                    <br />
+                    <input type="radio" name="genre" value="yes" checked="checked" /> Yes
+                    <input type="radio" name="genre" value="no" /> No
+                </p>
+            </div> 
+        </div>
+        <br> <br> 
+        <div class="starbox-container">
+            <div class="starbox">
+                <h5 class="font20">Kindly indicate your favourite items from our menu.</h5>
+            </div> 
+        </div>
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="boxw2">
+                <div>
+                    <label for="">1</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+                <div>
+                    <label for="">2</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+                <div>
+                    <label for="">3</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+            </div> 
+        </div>
+        <br> <br> <br>
+        <div class="starbox-container">
+            <div class="boxw2">
+                <p class="font20">Are you satisfied with our current menu?
+                    <br />
+                    <input type="radio" name="genre" value="yes" checked="checked" /> Instagram
+                    <input type="radio" name="genre" value="no" /> Facebook
+                    <input type="radio">Twitter
+                    <input type="radio">Website
+                </p>
+            </div> 
+        </div>
+        <br> <br> 
+        <div class="starbox-container">
+            <div class="starbox">
+               <button class="order-btn">Submit</button>
+            </div> 
+        </div>
+        <br> <br> <br>
 
+        <div class="fedsec2box">
+         <div class="feedintrobox">
+            <h3 class="font20">Foodconsults (PVT.) LTD.</h3> <br> <br>
+            <p class="font17">Foodconsults (Pvt.) Ltd. was founded in 1983 by Mahmood Akbar,<br> considered by many as the pioneer restaurateur in Pakistan. The <br>organization, which has its headquarter in Lahore, prides itself on <br>developing and growing a unique chain of restaurants known as the Salt’n <br> Pepper Restaurants. Salt’n Pepper restaurants are Pakistan’s most <br> recognized and distinguished hospitality brand with a history of market <br> innovation and excellence in restaurant chain operations.</p> <br> <br>
+
+            <h3 class="font20 text-center">Contact Us</h3>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d435431.0136992721!2d74.31840000000001!3d31.502048999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904fee737254d%3A0x8370603d14476306!2sFoodconsults%20(Pvt)%20Ltd!5e0!3m2!1sen!2sus!4v1718745616527!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br> <br>
+            <h3 class="font20 text-center">Head Office</h3>
+           <ul>
+            <li class="font11 text-center">+92-42-35850931</li>
+            <li class="font11 text-center">
+                +92-42-35850930</li>
+                <li class="font11 text-center">+92 42 111-100-678</li>
+                <li class="font11 text-center">
+                    snpfood@brain.net.pk</li>
+                <li class="font11 text-center">23 Usman Block, New Garden Town, Lahore, Pakistan</li>
+           </ul>
+         </div>
+        </div>
+       
+    </main> <br> <br> <br>
+    <section class="footer d-flex gap mt5 ">
+        <section>
+          <div class="logoimg mt5">
+              <img src="./Assets/footer logo.jpg" alt="">
           </div>
-        </div> <br> <br> <br>
-<section c[lass="feed-content">
-<p  class="feedback1-text">Your feedback is important to us and we greatly appreciate you filling <br> out the comment form below. We look forward to hearing from you!</p> <br> <br> <br>
-<div>
-    <h4 class="font24">Food</h4>
-    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
-    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
-    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
-    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
-    <button class="star"><span><i class="fa-solid fa-star"></i></span></button>
-</div>
-</section>
-
-
-        </main>
-    
+          <div class="">
+              <p class="mt3 textgray textdec">The Salt’n Pepper Restaurants are an example of  <br>
+                  gracious dinning, outstanding service, extraordinary <br>
+                  classic and contemporary cuisine. The restaurants have  <br>
+                   the ultimate dinning destinations in Lahore.From family <br>
+                   occasions to business dinner and moments of the heart, this <br>
+                   place is where unforgettable memories are made. </p> <br>
+             <a href="#" class="textgray">Terms and Condition</a> 
+                <a href="#" class="textgray">Privacy Policy</a> 
+          </div>
+          <footer>
+        </section>
+        <section class="gap mt5">
+          <ul>SITE Links</ul>
+         <li><a class="textdec  textgray" href="./index.html">HOME</a></li>
+         <li><a class="textdec textgray" href="./aboutus.html">ABOUTUS</a></li>
+         <li><a class="textdec textgray" href="./publications.html">PUBLICATIONS</a></li>
+         <li><a class="textdec textgray" href="./feedback.html">FEEDBACK</a></li>
+         <li><a  class="textdec textgray"href="./franchise.html"> franchise</a></li>
+        </section>
+        <section class="gap mt5">
+          <ul>Contact us</ul>
+         <li class="textgray">+92 42 358 509 31 (Head Office)</li>
+         <li class="textgray">+92 42 358 509 30 (Head Office)</li>
+         <li class="textgray">+92 42 111 100 678 (Delivery)</li>
+         <li class="textgray">+92 03 111 444 610 (Delivery)</li>
+         <li class="textgray">snpfood@brain.net.pk</li>
+         <li class="textgray">23-Usman Block, New GardenTown, Lahore, Pakistan</li>
+        </section>
+        <section>
+          <div class="iconssocial mt5">
+            <h3>Follow Us</h3> <br> <br> <br>
+             <img  src="./Assets/social logo.jpg" alt=""> <br> <br>
+          </div>
+          <div>
+              <img src="./Assets/ap store img.jpg" alt=""><br> <br>
+              <img src="./Assets/g-play img.jpg" alt="">
+          </div>
+         </section>
+         </section>
+         
+         </section>
+         <script src="https://kit.fontawesome.com/bfd180bbc3.js" crossorigin="anonymous"></script>
+       <!-- footer ended -->
+        </footer>
+  
 </body>
 </html>
