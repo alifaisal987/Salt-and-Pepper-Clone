@@ -1,0 +1,49 @@
+.mainbanner{
+ padding-bottom: 70px;
+ padding-top: 70px;
+}
+.mainheading1{
+ flex-wrap: wrap;
+ text-align: center;
+}
+.strow1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.inputbox1{
+    width: 400px;
+    height: 35px;
+   
+}
+.inputbox2{
+    margin-right: 100px ;
+    width: 400px;
+    height: 35px;
+}
+.strow2{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+label{
+    font-size: 20px;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.btn232{
+    border: 1px solid red;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+}
